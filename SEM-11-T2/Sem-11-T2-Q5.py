@@ -4,7 +4,7 @@ from tkinter import Y
 def primo(numb):
     count = 0 
     for i in range (1, numb + 1):
-        if numb % 1 == 0:
+        if numb % i == 0:
             count += 1
         
     if count == 2:
